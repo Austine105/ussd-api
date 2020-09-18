@@ -1,0 +1,18 @@
+{
+  "name": "ussd-api",
+  "version": "1.0.0",
+  "description": "Tutorial to help you integrate Africa's talking USSD api into your NodeJS application.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "smartniggs",
+  "license": "ISC",
+  "dependencies": {
+    "africastalking": "^0.4.7",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "ussd-menu-builder": "^1.2.0"
+  }
+}
